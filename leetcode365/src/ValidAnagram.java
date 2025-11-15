@@ -6,7 +6,8 @@ public class ValidAnagram {
     public static void main(String[] args) {
         boolean res = isAnagram("opa", "apo");
         System.out.println(res);
-    }
+    } 
+
     public static boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
 
